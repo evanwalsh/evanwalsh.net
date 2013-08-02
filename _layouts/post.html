@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="post">
+  <h2 class="title">{% if page.external %}<a href="{{ page.external }}">{{ page.title }} →</a>{% else %}{{ page.title }}{% endif %}</h2>
+  <div class="metadata">
+    {{ page.date | date_to_string }} — <a href="{{ page.url }}" class="permalink">∞ Permalink</a>
+  </div>
+  <div class="body">
+    {{ content }}
+  </div>
+</article>

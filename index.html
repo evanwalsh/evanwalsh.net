@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="posts">
+{% for post in paginator.posts %}
+  <article class="post">
+    <h2 class="title">{% if post.external %}<a href="{{ post.external }}">→ {{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h2>
+    <div class="metadata">
+      {{ post.date | date_to_string }} — <a href="{{ post.url }}" class="permalink">∞ Permalink</a>
+    </div>
+    <div class="body">
+      {{ post.content }}
+    </div>
+  </article>
+{% endfor %}
+</div>
+
+<div id="pagination">
+{% if paginator.previous_page %}
+  <a href="/log/pages/{{ paginator.previous_page }}" id="newer-posts">Newer posts</a>
+{% endif %}
+  <span id="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+{% if paginator.next_page %}
+  <a href="/log/pages/{{ paginator.next_page }}" id="older-posts">Older posts</a>
+{% endif %}
+</div>

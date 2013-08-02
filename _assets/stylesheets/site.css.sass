@@ -1,0 +1,128 @@
+// = require vendor/normalize.css
+
+@import bourbon
+$max-width: em(960)
+@import neat
+
+$heading-font: "futura-pt"
+$body-font: "jubilat"
+$accent: #765b9c
+
+body
+  background: #fff
+  color: #141414
+  font:
+    family: $body-font
+    size: 14px
+
+a
+  text-decoration: none
+  &:link, &:visited
+    color: $accent
+  &:hover
+    color: #111
+  &:active
+    color: #000
+
+img, .embed
+  max-width: 100%
+
+.video
+  position: relative
+  padding-bottom: 56.25%
+  padding-top: 25px
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+#banner
+  background: #FFEE70
+  color: #222
+  padding: 10px
+  text-align: center
+  font:
+    size: 1em
+    weight: bold
+  a
+    color: #444
+
+.container
+  @include outer-container
+
+#wrapper
+  margin: 50px auto
+
+h1, h2, h3, h4, h5, h6
+  text-rendering: optimizeLegibility
+
+#sidebar
+  @include span-columns(4)
+
+#elsewhere
+  list-style: none
+  margin: 10px 0
+  padding: 0
+  li
+    padding: 5px 10px
+    margin-bottom: 10px
+    text-align: center
+  .highlight
+    border-bottom: $accent 1px solid
+  a:hover, a:active
+    .highlight
+      border-color: #111
+
+#content
+  @include span-columns(8)
+  @include omega()
+
+#top
+  h1
+    font-size: 2em
+    text-transform: uppercase
+    // font-family: $heading-font
+    letter-spacing: -1px
+    line-height: 90%
+    margin: 0
+    a
+      border-top: $accent 5px solid
+      border-bottom: $accent 5px solid
+      padding: 20px
+      display: block
+      text-align: center
+
+h2
+  font-size: 1.5em
+
+.post
+  margin: 70px 0
+  &:first-child
+    margin-top: 0
+  .title
+    margin: 0
+    font-size: 200%
+  .body
+    margin: 10px 0
+
+p
+  line-height: 1.5
+  margin: 15px 0
+
+#bottom
+  font-size: 90%
+  color: #aaa
+
+#archive
+  @include outer-container
+
+.archive-posts
+  list-style: none
+  padding: 0
+
+.pagination
+  #older-posts, #newer-posts
+    @include fill-parent
+    display: block

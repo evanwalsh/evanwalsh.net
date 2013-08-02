@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Evan Walsh{% if page.title %} — {{ page.title }}{% endif %}</title>
+        <link rel="shortcut icon" href="/favicon.ico">
+
+        {% stylesheet site %}
+
+        <script type="text/javascript" src="//use.typekit.net/xpy8daj.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
+      {% if site.announcement.enabled %}
+      <div id="banner">
+        {% if site.announcement.link %}<a href="{{ site.announcement.link }}">{% endif %}
+        {{ site.announcement.text }}
+        {% if site.announcement.link %}</a>{% endif %}
+      </div>
+      {% endif %}
+
+      <div class="container" id="wrapper">
+        <div id="sidebar">
+          <header id="top">
+            <h1><a href="/">{{ site.name }}</a></h1>  
+          </header>
+          <ul id="elsewhere">
+            <li>evan@massivedanger.com</li>
+            <li><a href="http://twitter.com/evanwalsh">twitter.com/<span class="highlight">evanwalsh</span></a></li>
+            <li><a href="http://github.com/evanwalsh">github.com/<span class="highlight">evanwalsh</span></a></li>
+          </ul>
+        </div>
+
+        <div id="content">
+          {{ content }}
+
+          <footer id="bottom">
+            <p>&copy; 2013 Evan Walsh.</p>
+          </footer>
+        </div>
+      </div>
+    </body>
+</html>
