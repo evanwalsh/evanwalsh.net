@@ -4,8 +4,8 @@ require 'mina/rails'
 require 'mina/git'
 require 'mina/rbenv'
 
-set :domain, 'test.evanwalsh.net'
-set :deploy_to, '/var/www/test.evanwalsh.net'
+set :domain, 'evanwalsh.net'
+set :deploy_to, '/var/www/evanwalsh.net'
 set :repository, 'git://github.com/evanwalsh/evanwalsh.net.git'
 set :branch, 'master'
 
