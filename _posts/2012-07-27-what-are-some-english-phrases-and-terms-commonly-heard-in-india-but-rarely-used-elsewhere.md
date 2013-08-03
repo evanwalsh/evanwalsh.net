@@ -6,7 +6,7 @@ categories:
 - Humor
 tags:
 - Quora
-status: publish
+external:
 type: post
 published: true
 external: http://www.quora.com/India/What-are-some-English-phrases-and-terms-commonly-heard-in-India-but-rarely-used-elsewhere

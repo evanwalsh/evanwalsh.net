@@ -6,7 +6,7 @@ categories:
 tags:
 - Neil deGrasse Tyson
 - Video
-status: publish
+external:
 type: post
 published: true
 external: http://www.youtube.com/watch?feature=player_embedded&v=Wuq8Ula94Ag

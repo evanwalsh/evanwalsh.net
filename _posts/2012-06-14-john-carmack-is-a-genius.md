@@ -7,7 +7,7 @@ categories:
 tags:
 - FPS
 - Interview
-status: publish
+external:
 type: post
 published: true
 external: http://fabiensanglard.net/doom3/interviews.php

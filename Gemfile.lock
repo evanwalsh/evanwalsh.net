@@ -56,6 +56,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rainbow (1.1.4)
     rake (10.1.0)
     redcarpet (2.2.2)
     safe_yaml (0.7.1)
@@ -81,6 +82,8 @@ DEPENDENCIES
   jekyll-assets
   mina (~> 0.3.0)
   neat
+  rainbow
   ruby-oembed!
   sass
   stringex
+  thor

@@ -6,10 +6,10 @@ categories:
 - Video games
 tags:
 - The Last Error
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 I wasn't able to work much on TLE this week, but I did do some fun stuff. I added random building outlines, random name generation, and creepy NPCs.

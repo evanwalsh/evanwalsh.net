@@ -5,7 +5,7 @@ categories:
 - Video games
 tags:
 - Scary
-status: publish
+external:
 type: post
 published: true
 external: http://www.lonesurvivor.co.uk/

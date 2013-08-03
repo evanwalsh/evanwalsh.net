@@ -6,7 +6,7 @@ categories:
 tags:
 - Ze Frank
 - Video
-status: publish
+external:
 type: post
 published: true
 external: http://ashow.zefrank.com/episodes/1

@@ -3,10 +3,9 @@ layout: post
 title: ! 'Devlog 08: Can you rock?'
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
 ---
 
 ![](http://static.squarespace.com/static/5008d3c6c4aa6450352d944f/5008dbcce4b0d0f89531ae7e/519fbb62e4b05327e361594e/1369422697604/Screen%20Shot%202013-05-24%20at%2015.09.34%20.png.34%20.png?format=original)

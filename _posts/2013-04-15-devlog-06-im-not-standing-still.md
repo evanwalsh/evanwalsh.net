@@ -9,10 +9,10 @@ tags:
 - C++
 - Lua
 - love2d
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 There have been a few changes in my little world.

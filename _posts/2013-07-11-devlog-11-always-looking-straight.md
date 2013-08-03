@@ -3,10 +3,8 @@ layout: post
 title: ! 'Devlog 11: Always looking straight'
 categories: []
 tags: []
-status: publish
-type: post
+external:
 published: true
-meta: {}
 ---
 
 I haven't worked on my game for a few weeks. I guess I got the point where I wasn't actually working on my game. I was working on an engine that I wasn't even totally in love with.

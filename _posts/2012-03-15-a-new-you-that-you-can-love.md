@@ -4,10 +4,10 @@ title: A new you that you can love
 categories:
 - Meta
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 So, any regular visitor to this site (are there any?) will notice a new design. It's a bit more of what I like, in the end. I like a lot of whitespace, but my site has, historically, been light text on a dark background.

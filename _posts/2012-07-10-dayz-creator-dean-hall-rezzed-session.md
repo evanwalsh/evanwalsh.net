@@ -6,7 +6,7 @@ categories:
 tags:
 - FPS
 - Zombies
-status: publish
+external:
 type: post
 published: true
 external: http://www.youtube.com/watch?v=lAXqwewejwU&feature=player_embedded

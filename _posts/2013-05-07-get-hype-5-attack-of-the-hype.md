@@ -3,7 +3,7 @@ layout: post
 title: ! 'Get Hype 5: Attack of the Hype'
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: https://www.rdio.com/x/QAgcL2DJ-w/

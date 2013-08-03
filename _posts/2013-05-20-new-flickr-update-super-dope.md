@@ -5,7 +5,7 @@ categories:
 - Technology
 - Photography
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://yahoo.tumblr.com/post/50934634700/your-world-in-full-resolution

@@ -7,10 +7,10 @@ categories:
 tags:
 - The Last Error
 - love2d
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 I am writing the game using [LÖVE](https://love2d.org/) and it's going quite swimmingly. I've implemented players, bullets, enemies, and I started on lights.

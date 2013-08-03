@@ -3,7 +3,7 @@ layout: post
 title: CodeRunner
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://www.coderunnergame.com/

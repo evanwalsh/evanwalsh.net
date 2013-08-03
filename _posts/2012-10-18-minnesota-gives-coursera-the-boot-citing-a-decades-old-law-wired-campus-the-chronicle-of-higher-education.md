@@ -5,7 +5,7 @@ categories:
 - Technology
 tags:
 - Stupid
-status: publish
+external:
 type: post
 published: true
 external: http://chronicle.com/blogs/wiredcampus/minnesota-gives-coursera-the-boot-citing-a-decades-old-law/40542

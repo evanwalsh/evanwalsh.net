@@ -3,10 +3,10 @@ layout: post
 title: I ain't afraid of no ghosts
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 In the past, I've shied away from writing about technical matters. I do write a lot of code at my job and in my off-hours, but I never really tell anyone about what I do. I can't reveal a lot of what I work on at Harvest, but I can write about things I learn that can be abstracted.

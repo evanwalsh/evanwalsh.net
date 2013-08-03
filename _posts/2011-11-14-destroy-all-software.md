@@ -3,7 +3,7 @@ layout: post
 title: Destroy All Software
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: https://www.destroyallsoftware.com

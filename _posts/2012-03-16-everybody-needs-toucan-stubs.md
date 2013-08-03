@@ -6,7 +6,7 @@ categories:
 tags:
 - Politics
 - Video
-status: publish
+external:
 type: post
 published: true
 external: http://www.youtube.com/watch?v=uE5xZKszXMQ

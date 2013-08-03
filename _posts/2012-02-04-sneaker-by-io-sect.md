@@ -3,7 +3,7 @@ layout: post
 title: Sneaker by io sect
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://iosect.bandcamp.com/album/sneaker

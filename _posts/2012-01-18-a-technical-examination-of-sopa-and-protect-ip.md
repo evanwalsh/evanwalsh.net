@@ -3,7 +3,7 @@ layout: post
 title: A technical examination of SOPA and PROTECT IP
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://blog.reddit.com/2012/01/technical-examination-of-sopa-and.html

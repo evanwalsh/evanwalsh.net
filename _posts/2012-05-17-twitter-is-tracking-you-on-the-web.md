@@ -6,7 +6,7 @@ categories:
 tags:
 - Privacy
 - Twitter
-status: publish
+external:
 type: post
 published: true
 external: http://dcurt.is/twitter-is-tracking-you-on-the-web

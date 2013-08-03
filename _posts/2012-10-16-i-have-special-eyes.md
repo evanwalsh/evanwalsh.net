@@ -6,10 +6,10 @@ categories:
 - Video games
 tags:
 - Video
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 {% oembed https://www.youtube.com/watch?v=V-fRuoMIfpw %}

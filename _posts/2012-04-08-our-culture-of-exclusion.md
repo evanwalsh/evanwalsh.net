@@ -6,7 +6,7 @@ categories:
 - Christianity
 - Technology
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://ryanfunduk.com/culture-of-exclusion/

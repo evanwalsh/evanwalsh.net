@@ -3,10 +3,9 @@ layout: post
 title: ! 'Devlog 09: It''s hard to know they''re out there'
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
 ---
 
 Progress is coming along rather well on the engine. I've got scripting access via [Squirrel](http://squirrel-lang.org/) and [Sqrat](http://scrat.sourceforge.net/). I was very proud of myself that first moment I accessed the C++ engine from a script. It's not often I feel smart, but that was one moment.

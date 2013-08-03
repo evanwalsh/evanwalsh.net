@@ -3,10 +3,10 @@ layout: post
 title: Simmer down now
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 I hinted at a project [in my previous post](/log/2013/1/i-aint-afraid-of-no-ghosts) that I'd start writing about and this is me starting to make good on that.

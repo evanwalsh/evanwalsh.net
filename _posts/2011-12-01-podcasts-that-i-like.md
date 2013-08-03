@@ -3,10 +3,10 @@ layout: post
 title: Podcasts that I like
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 I've been listening to podcasts for a while and I want you to listen to them too. Here's a list of my favorites.

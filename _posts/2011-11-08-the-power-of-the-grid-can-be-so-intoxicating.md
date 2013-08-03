@@ -3,7 +3,7 @@ layout: post
 title: The power of the grid can be so intoxicating
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://vimeo.com/31355402

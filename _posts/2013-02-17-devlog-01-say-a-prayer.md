@@ -5,10 +5,10 @@ categories:
 - Devlog
 - Video games
 tags: []
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 I've been oscilatting between "I CAN DO THIS" and "I WILL NEVER EVEN START DOING THIS"

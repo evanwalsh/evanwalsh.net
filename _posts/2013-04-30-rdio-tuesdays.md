@@ -3,7 +3,7 @@ layout: post
 title: Rdio Tuesdays
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://rdiotuesdays.tumblr.com/

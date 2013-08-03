@@ -14,6 +14,8 @@ gem "neat"
 # Support gems
 gem "ruby-oembed", github: "judofyr/ruby-oembed"
 gem "stringex"
+gem "thor"
+gem "rainbow"
 
 # Deploy
 gem "mina", "~> 0.3.0"

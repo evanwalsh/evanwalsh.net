@@ -6,7 +6,7 @@ categories:
 tags:
 - consoles
 - nextgen
-status: publish
+external:
 type: post
 published: true
 external: http://www.youtube.com/watch?v=JkP-frj5Unk

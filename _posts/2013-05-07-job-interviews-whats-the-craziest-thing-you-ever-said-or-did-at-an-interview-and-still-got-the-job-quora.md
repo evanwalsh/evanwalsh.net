@@ -6,7 +6,7 @@ categories:
 - Humor
 tags:
 - Awesome
-status: publish
+external:
 type: post
 published: true
 external: http://www.quora.com/Job-Interviews/Whats-the-craziest-thing-you-ever-said-or-did-at-an-interview-and-still-got-the-job

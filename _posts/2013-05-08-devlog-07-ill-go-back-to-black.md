@@ -5,10 +5,10 @@ categories:
 - Video games
 tags:
 - The Last Error
-status: publish
+external:
 type: post
 published: true
-meta: {}
+
 ---
 
 So, I'm doing all the wrong things, but I don't care. I'm just writing my own engine. Because of reasons.

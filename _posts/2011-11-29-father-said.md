@@ -3,7 +3,7 @@ layout: post
 title: Father Said
 categories: []
 tags: []
-status: publish
+external:
 type: post
 published: true
 external: http://www.youtube.com/watch?v=49RCMqAcOpE
