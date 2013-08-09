@@ -4,16 +4,17 @@
 $max-width: em(960)
 @import neat
 
-$heading-font: "futura-pt"
-$body-font: "ff-tisa-web-pro"
+$heading-font: "futura-pt", "Futura Std", "Proxima Nova", "Helvetica Neue", sans-serif
+$body-font: "ff-tisa-web-pro", "FF Tisa", Georgia, serif
 $accent: #765b9c
+$mobile: new-breakpoint(max-width 600px 6)
 
 body
   background: #fff
   color: #141414
   font:
     family: $body-font
-    size: 14px
+    size: em(15)
 
 a
   text-decoration: none
@@ -25,7 +26,7 @@ a
     color: #000
 
 img, .embed
-  max-width: 100%
+  @include fill-parent
 
 .video
   position: relative
@@ -54,6 +55,8 @@ img, .embed
 
 #wrapper
   margin: 50px auto
+  @include media($mobile)
+    margin: 10px auto
 
 h1, h2, h3, h4, h5, h6
   font-family: $heading-font
@@ -62,15 +65,17 @@ h1, h2, h3, h4, h5, h6
 
 #sidebar
   @include span-columns(4)
+  @include media($mobile)
+    @include span-columns(6)
+    @include pad(20px)
+    display: none
 
 #elsewhere
   list-style: none
   margin: 10px 0
   padding: 0
   li
-    padding: 5px 10px
     margin-bottom: 10px
-    text-align: center
   .highlight
     border-bottom: $accent 1px solid
   a:hover, a:active
@@ -80,20 +85,23 @@ h1, h2, h3, h4, h5, h6
 #content
   @include span-columns(8)
   @include omega()
+  @include media($mobile)
+    @include span-columns(6)
+    @include pad(20px)
 
 #top
+  background: $accent
   h1
-    font-size: 2em
+    font-size: 1.2em
     text-transform: uppercase
     letter-spacing: 4px
     line-height: 90%
     margin: 0
+    @include span-columns(12)
     a
-      border-top: $accent 5px solid
-      border-bottom: $accent 5px solid
-      padding: 20px
+      @include pad(20px)
       display: block
-      text-align: center
+      color: #fff
 
 h2
   font-size: 1.5em
