@@ -24,6 +24,7 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/fonts
+    - _assets/audio
   gzip: [ text/css, application/javascript ]
 announcement:
   enabled: false
