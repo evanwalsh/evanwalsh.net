@@ -7,6 +7,7 @@ $max-width: em(960)
 $heading-font: "futura-pt", "Futura Std", "Proxima Nova", "Helvetica Neue", sans-serif
 $body-font: "ff-tisa-web-pro", "FF Tisa", Georgia, serif
 $accent: #765b9c
+$small: new-breakpoint(max-width 960px 12)
 $mobile: new-breakpoint(max-width 600px 6)
 
 body
@@ -65,10 +66,10 @@ h1, h2, h3, h4, h5, h6
 
 #sidebar
   @include span-columns(4)
+  @include media($small)
+    @include pad(0 20px)
   @include media($mobile)
     @include span-columns(6)
-    @include pad(20px)
-    display: none
 
 #elsewhere
   list-style: none
@@ -85,9 +86,11 @@ h1, h2, h3, h4, h5, h6
 #content
   @include span-columns(8)
   @include omega()
+  @include media($small)
+    @include pad(0 20px)
   @include media($mobile)
     @include span-columns(6)
-    @include pad(20px)
+    margin-top: 20px
 
 #top
   background: $accent
@@ -98,10 +101,15 @@ h1, h2, h3, h4, h5, h6
     line-height: 90%
     margin: 0
     @include span-columns(12)
+    @include media($mobile)
+      @include span-columns(6)
     a
-      @include pad(20px)
+      @include pad(20px 0)
       display: block
       color: #fff
+      @include media($small)
+        @include pad(20px)
+
 
 h2
   font-size: 1.5em
