@@ -7,7 +7,7 @@ layout: nil
   <link href="{{ site.url }}/atom.xml" rel="self"/>
   <link href="{{ site.url }}/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
+  <id>{{ site.url }}/</id>
   <author>
     <name>Evan Walsh</name>
     <email>evan@massivedanger.com</email>
@@ -15,7 +15,7 @@ layout: nil
   {% for post in site.posts %}
   <entry>
     <title>{% if post.external %}→ {% endif %}{{ post.title }}</title>
-    <link href="{% if post.external %}{{ post.external }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"/>
+    <link href="{% if post.external %}{{ post.external | xml_escape }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
