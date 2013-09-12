@@ -6,7 +6,7 @@ layout: default
 {% for post in paginator.posts %}
   <article class="post">
     <h2 class="title">{% if post.external %}<a href="{{ post.external }}">→ {{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h2>
-    <div class="metadata">
+    <div class="metadata" title="{{ post.date }}">
       {{ post.date | date_to_string }} — <a href="{{ post.url }}" class="permalink">∞ Permalink</a>
     </div>
     <div class="body">
