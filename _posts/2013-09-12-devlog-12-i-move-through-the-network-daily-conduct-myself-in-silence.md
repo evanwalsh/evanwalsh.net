@@ -3,6 +3,7 @@ layout: post
 title: ! 'Devlog 12: I move through the network daily, conduct myself in silence'
 categories: []
 tags: []
+date: 2013-09-12 14:59:19 -0400
 external: false
 ---
 

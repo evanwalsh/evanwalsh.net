@@ -29,6 +29,7 @@ class Blog < Thor
       f.puts "---"
       f.puts "layout: post"
       f.puts "title: #{name}"
+      f.puts "date: #{Time.now}"
       f.puts "categories: []"
       f.puts "tags: []"
       f.puts "external: false"
@@ -49,7 +50,11 @@ class Blog < Thor
     end
 
     now = Date.today.strftime("%Y-%m-%d")
-    mv file, "_posts/#{now}-#{File.basename(file)}"
+    new_filename = "_posts/#{now}-#{File.basename(file)}"
+    mv file, new_filename
+
+    updated = File.read(new_filename).gsub(%r{date: .*\n}, "date: #{Time.now.to_s}\n")
+    File.open(new_filename, 'w') { |f| f.write updated }
 
     puts "Published post: #{now}-#{File.basename(file)}".color(COLORS[:green])
   end
