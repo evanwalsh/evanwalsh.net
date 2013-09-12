@@ -12,6 +12,7 @@ exclude:
   - assets
   - config
   - vendor
+  - blog
 paginate: 15
 paginate_path: pages/:num
 permalink: :year/:month/:title

@@ -13,7 +13,7 @@ class Blog < Thor
   }
 
   desc "draft NAME", "Draft a post"
-  method_options :format => :optional
+  method_options format: :optional
   def draft name
     format = options[:format] || "md"
     slug = name.downcase.gsub(/ +/,'-').gsub(/[^-\w]/,'').sub(/-+$/,'')
