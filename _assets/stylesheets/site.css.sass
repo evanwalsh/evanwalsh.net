@@ -100,22 +100,22 @@ h1, h2, h3, h4, h5, h6
     margin-top: 20px
 
 #top
-  background: $accent
+  border-bottom: $accent 2px solid
+  margin-bottom: 20px
   h1
     font-size: 1.2em
     text-transform: uppercase
-    letter-spacing: 4px
+    letter-spacing: 2px
     line-height: 90%
     margin: 0
-    @include span-columns(12)
-    @include media($mobile)
-      @include span-columns(6)
     a
       @include pad(20px 0)
       display: block
-      color: #fff
+      color: $accent
       @include media($small)
         @include pad(20px)
+      &:hover
+        color: #111
 
 
 h2
@@ -127,9 +127,9 @@ h2
     margin-top: 0
   .title
     margin: 0
-    font-size: 200%
+    font-size: 170%
     text-transform: uppercase
-    letter-spacing: -2px
+    letter-spacing: -1px
   .body
     margin: 10px 0
 
