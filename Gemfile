@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 1.1.2"
+gem "jekyll", "~> 1.4.3"
 
 # Plugins
 gem "jekyll-assets"
