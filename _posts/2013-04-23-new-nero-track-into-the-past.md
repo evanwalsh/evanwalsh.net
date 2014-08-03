@@ -11,4 +11,4 @@ published: true
 
 Nero just dropped this massive track from The Great Gatsby and I can't get enough of it. Treat yourself.
 
-{% oembed https://soundcloud.com/nero/nero-into-the-past %}
+_Edit: It appears Nero have removed this track from their Soundcloud. Fun!_

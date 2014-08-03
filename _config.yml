@@ -1,33 +1,35 @@
 name: Evan Walsh
 url: http://evanwalsh.net
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: rouge
 destination: public
-exclude: 
+exclude:
   - Rakefile
   - README.md
   - public
   - Gemfile
   - Gemfile.lock
-  - assets
   - config
-  - vendor
-  - blog
-paginate: 15
+  - bin
+paginate: 20
 paginate_path: pages/:num
 permalink: :year/:month/:title
 sass:
   syntax: sass
   style:  compressed
-assets:
-  sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-    - _assets/audio
-  gzip: [ text/css, application/javascript ]
+  sass_dir: ./assets/stylesheets/
 announcement:
   enabled: false
   text: This is a test &rarr;
-  link: http://evanwalsh.dev
+  link: http://evanwalsh.net
+defaults:
+  - scope:
+      path: ''
+      type: post
+    values:
+      layout: post
+  - scope:
+      path: ''
+      type: page
+    values:
+      layout: page

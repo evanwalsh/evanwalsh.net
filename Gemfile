@@ -1,9 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 1.4.3"
-
-# Plugins
-gem "jekyll-assets"
+gem "jekyll"
 
 # Assets
 gem "coffee-script"
@@ -18,4 +15,4 @@ gem "thor"
 gem "rainbow"
 
 # Deploy
-gem "mina", "~> 0.3.0"
+gem "mina"

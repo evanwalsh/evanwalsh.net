@@ -7,8 +7,6 @@
         <link rel="shortcut icon" href="/favicon.ico">
         {% stylesheet site %}
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <script type="text/javascript" src="//use.typekit.net/xpy8daj.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
       {% if site.announcement.enabled %}
@@ -42,6 +40,7 @@
         </div>
       </div>
 
-      <script>{% asset gauges %}</script>
+      {% javascript vendor/highlight %}
+      <script>hljs.initHighlightingOnLoad();</script>
     </body>
 </html>
