@@ -15,4 +15,4 @@ gem "thor"
 gem "rainbow"
 
 # Deploy
-gem "mina"
+gem "s3_website"
