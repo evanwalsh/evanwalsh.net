@@ -16,3 +16,4 @@ gem "rainbow"
 
 # Deploy
 gem "s3_website"
+gem "mina"
