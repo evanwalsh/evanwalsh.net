@@ -11,6 +11,7 @@ exclude:
   - Gemfile.lock
   - config
   - bin
+  - vendor
 paginate: 20
 paginate_path: pages/:num
 permalink: :year/:month/:title
